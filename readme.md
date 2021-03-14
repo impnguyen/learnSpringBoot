@@ -1,5 +1,5 @@
 # tutorial
-https://www.youtube.com/watch?v=9SGDpanrc8U&t=217s
+https://www.youtube.com/watch?v=9SGDpanrc8U&t=2232s
 
 # plsql docker 
 docker run --name student -d -p 5432:5432 -e POSTGRES_PASSWORD=password postgres:alpine
