@@ -15,3 +15,4 @@ docker run --name student -d -p 5432:5432 -e POSTGRES_PASSWORD=password postgres
 ## grant roles permission: GRANT ALL PRIVILEGES ON DATABASE "student" TO postgres;
 ## connect to student database: \c student
 ## show relations: \d
+## show columsn: \d student
