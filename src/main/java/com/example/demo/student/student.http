@@ -1,2 +1,12 @@
 ### get students
 GET http://localhost:8080/api/v1/student
+
+### add new student
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+    "name": "Test",
+    "dob": "1991-06-29",
+    "email": "manhphuoc.nguyen@lew.de"
+}
